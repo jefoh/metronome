@@ -49,7 +49,7 @@ public class Metronome implements Runnable {
     }
 
     public int getTimeSignature() {
-        return beatsPerMeasure;
+        return this.beatsPerMeasure;
     }
 
     public void setTimeSignature(int beatsPerMeasure) {
